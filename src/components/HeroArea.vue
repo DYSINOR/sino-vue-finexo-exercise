@@ -19,6 +19,7 @@
                       <div id="app">
                         <p>{{ $t("welcome") }}</p>
                         <p>{{ $t("message") }}</p>
+                        <p>{{ $t("age") }}</p>
                         <!-- <button @click="changeLocale('en')">English</button>
                         <button @click="changeLocale('km')">Khmer</button> -->
                       </div>

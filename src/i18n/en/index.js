@@ -1,6 +1,7 @@
 const transaltion_en = {
-    welcome: 'សូមស្វាគម',
-    message: 'ជម្រាប់សួរពិភពលោក!'
+    welcome: 'Welcome',
+    message: 'Hello World',
+    age: 'You are too young!'
 }
 
 export default transaltion_en
