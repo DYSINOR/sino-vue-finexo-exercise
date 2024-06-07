@@ -3,7 +3,7 @@
         
         <div class="card text-center" style="width: 30rem;">
             <form class="form-signin" @submit.prevent="handleSubmit">
-                <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <!-- <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
                 <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
                 <label for="inputEmail" class="sr-only">Email address</label>
                 <input type="text" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="" v-model="formData.name">

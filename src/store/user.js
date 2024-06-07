@@ -7,7 +7,8 @@ export const useUsersStore = defineStore('users', {
   }),
   actions: {
     async fetchUser() {
-        const {data} = await axios.get('http://172.23.128.253:3000/users')
+        // const {data} = await axios.get(`${process.env.VUE_APP_URL}/users`)
+        const {data} = await axios.get(`${import.meta.env.VIT_APP_URL}/users`)
         this.users = data
     }
   }

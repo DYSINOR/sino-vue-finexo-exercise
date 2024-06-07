@@ -1,16 +1,12 @@
 // src/i18n.js
 import { createI18n } from 'vue-i18n'
+import transaltion_en from './en'
+import transaltion_km from './km'
 
 // Define messages for each locale
 const messages = {
-  en: {
-    welcome: 'Welcome',
-    message: 'Hello World'
-  },
-  km: {
-    welcome: 'សូមស្វាគម',
-    message: 'ជម្រាប់សួរពិភពលោក!'
-  }
+  en: transaltion_en,
+  km: transaltion_km
 }
 
 // Create i18n instance with options
