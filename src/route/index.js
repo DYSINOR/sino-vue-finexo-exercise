@@ -12,6 +12,8 @@ import SignUp from '@/views/SignUp.vue'
 import FileUpload from '@/components/FileUpload.vue'
 // import i18n from '@/i18n'
 
+import NotFound from "@/views/NotFound.vue";
+
 
 const routes = [
     { path: '/', component: Home },
@@ -23,7 +25,9 @@ const routes = [
     { path: '/user', component: Users},
     { path: '/login', component: Login},    
     { path: '/sign-up', component: SignUp },    
-    { path: '/upload', component: FileUpload }
+    { path: '/upload', component: FileUpload },
+    { path: '/:patMatch(.*)*', component: NotFound },
+
 ]
 
 const router = createRouter({
